@@ -1,0 +1,14 @@
+.services{
+	h2{
+		font-weight: bold;
+	}
+	h4{
+		margin: 22px 0;
+   		font-size: 1.4em;
+    	font-weight: bold;
+	}
+	.fa-stack{
+		@include fa_stack(4em,$color_btn,white);
+	}
+}
+  

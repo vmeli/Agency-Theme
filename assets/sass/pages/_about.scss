@@ -1,0 +1,43 @@
+.about{
+	.col-md-6{
+		position: relative;
+		padding-bottom: 10%;
+		img{
+	    	background: #F1F1F1;
+    		padding: 8px;
+    		width: 29%;
+    		position: absolute;
+		}
+		p{
+			padding-right: 20%;
+    		padding-left: 17%;
+		}
+		h4{
+			@extend p;
+		}
+	}
+	.row:last-child{
+		.col-md-6{
+		padding-bottom: 0;
+		}
+	}
+	.text-right{
+		img{
+			left: 84%;
+		}
+	}
+	.text-left{
+		img{
+			right: 87%;
+		}
+	}
+	.linetime{
+		position: relative;
+		&::before{
+			position: absolute;
+			border: 1px solid #F1F1F1;
+    		left: 48.85%;
+    		height: 158vh;
+		}
+	}
+}

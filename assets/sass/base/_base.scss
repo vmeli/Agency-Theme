@@ -1,0 +1,54 @@
+.btn{
+	font-family: 'Montserrat';
+	@include btn();
+}
+
+h1,h2,h4,span{
+	font-family: 'Montserrat';
+}
+
+h1{
+	margin-bottom: 5%;
+}
+
+h2{
+    font-size: 2.7em;
+    margin-bottom: 22px;
+}
+
+h4{
+	font-weight: bold;
+}
+
+p{
+	font-family: 'Roboto Slab';
+	color: $color_parrafo;
+}
+
+h5{
+	font-family: "Droid Serif";
+	font-style: italic;
+	font-size: 1.15em;
+	margin-bottom: 76px;
+	color: $color_parrafo;
+}
+
+.services,
+.portfolio,
+.about,
+.team,
+.contact{
+	    padding: 10% 0 11%;
+}
+
+
+.navegador2{
+	z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+    padding: 16px;
+    margin-top: -28px;
+}
+
+
+

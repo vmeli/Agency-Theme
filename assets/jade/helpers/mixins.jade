@@ -1,0 +1,87 @@
+mixin section(title)
+	.container.text-center
+		.row
+			.col-md-12
+				h2=title
+				h5 Lorem ipsum dolor sit amet consectetur
+
+
+//- MIXIN SERVICES
+mixin iconservice(iconservice)
+	case iconservice
+		when "commerce"
+			i.fa.fa-shopping-cart.fa-stack
+		when "responsive"
+			i.fa.fa-laptop.fa-stack
+		when "desing"
+			i.fa.fa-lock.fa-stack
+
+mixin services(icono1, title1,icono2, title2,icono3, title3)
+	.row
+		.col-md-4
+			+iconservice(icono1)
+			h4= title1
+			p= texto
+		.col-md-4
+			+iconservice(icono2)
+			h4= title2
+			p= texto
+		.col-md-4
+			+iconservice(icono3)
+			h4= title3
+			p= texto
+
+
+//- MIXIN PORTFOLIO
+mixin imgpng(url)
+	img.img-responsive(src='img/portfolio/' + url + '.png')
+
+mixin imagenes(url1,title1,text1, url2,title2,text2, url3,title3,text3)
+	.row
+		.col-xs-12.col-sm-4.col-md-4
+			+imgpng(url1)
+			.caption_img
+				h4= title1
+				h5= text1
+		.col-xs-12.col-sm-4.col-md-4
+			+imgpng(url2)
+			.caption_img
+				h4= title2
+				h5= text2
+		.col-xs-12.col-sm-4.col-md-4
+			+imgpng(url3)
+			.caption_img
+				h4= title3
+				h5= text3
+
+//- MIXIN ABOUT
+mixin panel(texto1,texto2)
+		h4= texto1
+		h4= texto2
+		p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+
+//- MIXIN TEAM
+mixin imgjpg(url)
+	img.img-circle(src='img/team/' + url + '.jpg')
+
+mixin team(url,title1,title2)
+	.col-md-4
+		+imgjpg(url)
+		h4=title1
+		p=title2
+		a.fa.fa-twitter.fa-stack(href="#")
+		a.fa.fa-facebook.fa-stack(href="#")
+		a.fa.fa-linkedin.fa-stack(href="#")
+		//- block mediasocial
+
+
+//- MIXIN SPONSOR
+mixin imgjpg_sponsor(url)
+	img(src='img/logos/'+ url + '.jpg')
+
+
+//- MIXIN CONTACT
+mixin form-group(name,text)
+	.form-group
+		label.sr-only(for='#{name}') #{name} 
+		input.form-control(id='#{name}',type=type,placeholder='#{text}')

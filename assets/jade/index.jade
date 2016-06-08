@@ -1,0 +1,31 @@
+include helpers/variables
+include helpers/mixins
+
+doctype html
+html(lang="en")
+	head
+		title Agency Theme
+		meta(http-equiv="Content-Type",content="text/html; charset=utf-8")
+		meta(name="viewport",content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", href='https://fonts.googleapis.com/css?family=Montserrat', type='text/css')
+		link(rel="stylesheet", href='https://fonts.googleapis.com/css?family=Kaushan+Script', type='text/css')
+		link(rel="stylesheet", href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300', type='text/css')
+		link(rel="stylesheet", href='https://fonts.googleapis.com/css?family=Droid+Serif:700italic,400italic,400,700', type='text/css')
+		link(rel="stylesheet", href="assets/font-awesome/css/font-awesome.css")
+		link(rel="stylesheet", href="assets/css/bootstrap.css")
+		link(rel="stylesheet", href="assets/sass/main.css")
+
+	body
+		include views/header
+		include views/banner
+		include views/services
+		include views/portfolio
+		include views/about
+		include views/team
+		include views/sponsor
+		include views/contact
+		include views/footer
+		
+		script(src='https://code.jquery.com/jquery-1.10.2.min.js')
+		script(type='text/javascript' src='./assets/js/bootstrap.min.js')
+		script(src="./assets/js/main.js")

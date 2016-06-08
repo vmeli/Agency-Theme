@@ -1,0 +1,20 @@
+footer{
+	padding: 23px 0;
+	.fa-stack{
+		@include fa_stack(1.5em,$color_media_social,white);
+		margin: 0 6px;
+	}
+	@include a_hover($color_btn,$color_btn);
+	span{
+		line-height: 41px;
+	}
+	.terms_use{
+		a{
+			color: $color_btn;
+			&:hover{
+				background-color: transparent;
+				text-decoration: none;
+			}
+		}
+	}
+}

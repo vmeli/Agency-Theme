@@ -1,0 +1,17 @@
+section.contact
+	.container.text-center
+		.row
+			.col-md-12
+				h2 CONTACT US
+				h5 Lorem ipsum dolor sit amet consectetur.
+		.row
+			.col-md-6
+				form(role='form')
+					+form-group("name","YOUR NAME *")
+					+form-group("email","YOUR EMAIL *")
+					+form-group("phone","YOUR PHONE *")
+			.col-md-6
+				textarea.form-control(cols='30', rows='10',placeholder='YOUR MESSAGE *')
+		.row
+			.col-md-12
+				button.btn.btn-default.btn-lg(type="button") SEND MESSAGE

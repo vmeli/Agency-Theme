@@ -1,0 +1,19 @@
+.team{
+	background-color: $color_grayl;
+	.img-circle {
+        padding: 7px;
+    	background: white;
+    	margin-bottom: 15px;
+	}
+	.fa-stack{
+		@include fa_stack(1.5em,$color_media_social,white);
+		margin: 0 6px;
+	}
+	@include a_hover($color_btn,$color_btn);
+	.text_team{
+		font-size: 1.1em;
+    	margin-top: 54px;
+    	padding: 0 18%;
+	}
+}
+

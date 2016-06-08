@@ -1,0 +1,31 @@
+@mixin btn(){
+    padding: 1.5% 3.5%;
+    font-size: 1.3em;
+    border-radius: 3px;
+    color: white;
+    background: $color_btn;
+    border-color: $color_btn;
+    &:hover,&:focus{
+    	background: transparent;
+    	color: $color_btn;
+    	border-color: $color_btn;
+    }
+}
+
+@mixin fa_stack($font_size,$color_bg,$color_font){
+    font-size: $font_size; 
+    border: 1px solid $color_bg;
+    background-color: $color_bg;
+    color: $color_font;
+    border-radius: 50%;
+}
+
+@mixin a_hover($color_bg,$color_borde){
+    a{
+        &:hover{
+            text-decoration: none;
+            background-color: $color_bg;
+            border-color: $color_borde;
+        }
+    }
+}

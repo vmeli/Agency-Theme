@@ -1,0 +1,16 @@
+.portfolio{
+	background-color: $color_grayl;
+	.col-md-4{
+		margin-bottom: 34px;
+	}
+	.img-responsive{
+		width: 100%;
+	}
+	.caption_img{
+		background-color: white;
+		padding: 26px 0;
+		h5{
+			margin-bottom: 0;
+		}
+	}
+}

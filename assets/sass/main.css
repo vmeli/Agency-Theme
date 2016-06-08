@@ -1,0 +1,197 @@
+.btn {
+  font-family: 'Montserrat';
+  padding: 1.5% 3.5%;
+  font-size: 1.3em;
+  border-radius: 3px;
+  color: white;
+  background: #FED136;
+  border-color: #FED136; }
+  .btn:hover, .btn:focus {
+    background: transparent;
+    color: #FED136;
+    border-color: #FED136; }
+
+h1, h2, h4, span {
+  font-family: 'Montserrat'; }
+
+h1 {
+  margin-bottom: 5%; }
+
+h2 {
+  font-size: 2.7em;
+  margin-bottom: 22px; }
+
+h4 {
+  font-weight: bold; }
+
+p, .about .col-md-6 h4 {
+  font-family: 'Roboto Slab';
+  color: #77779D; }
+
+h5 {
+  font-family: "Droid Serif";
+  font-style: italic;
+  font-size: 1.15em;
+  margin-bottom: 76px;
+  color: #77779D; }
+
+.services,
+.portfolio,
+.about,
+.team,
+.contact {
+  padding: 10% 0 11%; }
+
+.navegador2 {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  padding: 16px;
+  margin-top: -28px; }
+
+header .navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  padding-top: 2%; }
+  header .navbar-default .navbar-brand {
+    font-family: 'Kaushan Script';
+    font-size: 2em;
+    color: #FED136; }
+  header .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.1em; }
+    header .navbar-default .navbar-nav > li > a:hover {
+      color: #FED136; }
+
+footer {
+  padding: 23px 0; }
+  footer .fa-stack {
+    font-size: 1.5em;
+    border: 1px solid #222222;
+    background-color: #222222;
+    color: white;
+    border-radius: 50%;
+    margin: 0 6px; }
+  footer a:hover {
+    text-decoration: none;
+    background-color: #FED136;
+    border-color: #FED136; }
+  footer span {
+    line-height: 41px; }
+  footer .terms_use a {
+    color: #FED136; }
+    footer .terms_use a:hover {
+      background-color: transparent;
+      text-decoration: none; }
+
+.banner {
+  background-image: url(../../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  color: white;
+  padding: 19.5% 0; }
+  .banner h1 {
+    font-size: 5.3em; }
+  .banner h2 {
+    font-family: "Droid Serif";
+    font-style: italic;
+    font-size: 3em; }
+
+.services h2 {
+  font-weight: bold; }
+.services h4 {
+  margin: 22px 0;
+  font-size: 1.4em;
+  font-weight: bold; }
+.services .fa-stack {
+  font-size: 4em;
+  border: 1px solid #FED136;
+  background-color: #FED136;
+  color: white;
+  border-radius: 50%; }
+
+.portfolio {
+  background-color: #F7F7F7; }
+  .portfolio .col-md-4 {
+    margin-bottom: 34px; }
+  .portfolio .img-responsive {
+    width: 100%; }
+  .portfolio .caption_img {
+    background-color: white;
+    padding: 26px 0; }
+    .portfolio .caption_img h5 {
+      margin-bottom: 0; }
+
+.about .col-md-6 {
+  position: relative;
+  padding-bottom: 10%; }
+  .about .col-md-6 img {
+    background: #F1F1F1;
+    padding: 8px;
+    width: 29%;
+    position: absolute; }
+  .about .col-md-6 p, .about .col-md-6 h4 {
+    padding-right: 20%;
+    padding-left: 17%; }
+.about .row:last-child .col-md-6 {
+  padding-bottom: 0; }
+.about .text-right img {
+  left: 84%; }
+.about .text-left img {
+  right: 87%; }
+.about .linetime {
+  position: relative; }
+  .about .linetime::before {
+    position: absolute;
+    border: 1px solid #F1F1F1;
+    left: 48.85%;
+    height: 158vh; }
+
+.team {
+  background-color: #F7F7F7; }
+  .team .img-circle {
+    padding: 7px;
+    background: white;
+    margin-bottom: 15px; }
+  .team .fa-stack {
+    font-size: 1.5em;
+    border: 1px solid #222222;
+    background-color: #222222;
+    color: white;
+    border-radius: 50%;
+    margin: 0 6px; }
+  .team a:hover {
+    text-decoration: none;
+    background-color: #FED136;
+    border-color: #FED136; }
+  .team .text_team {
+    font-size: 1.1em;
+    margin-top: 54px;
+    padding: 0 18%; }
+
+.sponsor {
+  padding: 3.5% 0; }
+
+.contact {
+  color: white;
+  background-color: #222222; }
+  .contact input {
+    margin-bottom: 21px;
+    padding: 27px 12px; }
+
+@media (max-width: 954px) {
+  .services p, .services .about .col-md-6 h4, .about .col-md-6 .services h4 {
+    margin-bottom: 60px; }
+
+  .about .linetime::before {
+    display: none; }
+
+  .team .fa-stack {
+    margin: 0 6px 60px; }
+
+  .contact .btn {
+    margin-top: 27px; } }
+
+/*# sourceMappingURL=main.css.map */

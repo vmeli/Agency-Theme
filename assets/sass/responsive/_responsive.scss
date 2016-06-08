@@ -1,0 +1,25 @@
+@media(max-width: 954px) {
+	.services{
+		p{
+			margin-bottom: 60px;
+
+		}
+	}
+	.about{
+		.linetime{
+			&::before{
+				display: none;
+			}
+		}
+	}
+	.team{
+		.fa-stack{
+			margin: 0 6px 60px;
+		}
+	}
+	.contact{
+		.btn{
+			margin-top: 27px;
+		}
+	}
+}

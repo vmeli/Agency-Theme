@@ -1,0 +1,21 @@
+header{
+	.navbar-default{
+		background-color: transparent;
+		border-color: transparent;
+		padding-top: 2%;
+		.navbar-brand{
+			font-family: 'Kaushan Script';
+			font-size: 2em;
+			color: $color_btn;
+		}
+		.navbar-nav>li>a{
+			color: white;
+			font-family: 'Montserrat';
+			font-size: 1.1em;
+			&:hover{
+				color: $color_btn;
+			}
+		}
+	}
+}
+
